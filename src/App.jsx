@@ -1,6 +1,6 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import '/portfolio/App.css'
+import './App.css'
 import pic from './assets/headshot.png'
 import Typewriter from './components/Typewriter'
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
