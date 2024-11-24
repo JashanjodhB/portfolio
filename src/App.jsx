@@ -84,11 +84,6 @@ function App() {
                 <FontAwesomeIcon icon={faGithub} color='#000000'/>
               </a>
             </li>
-            <li className='instagram'>
-              <a  target="_blank" rel='noreferrer' href={'https://www.instagram.com/breezyjja/'}>
-                <FontAwesomeIcon icon={faInstagram} color='#000000'/>
-              </a>
-            </li>
           </ul>
         </div>
         
