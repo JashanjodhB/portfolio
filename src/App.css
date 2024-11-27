@@ -77,6 +77,24 @@ body {
   
 }
 
+.website{
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+  font-size: 25vh;
+  display: flex;
+  h1{
+    position: relative;
+    left: 5px;
+    width: 210%;
+  }
+  p{
+    position: relative;
+    top: 5px;
+    font-size: 20px
+  }
+}
+
 .links li:not(:last-child) {
   margin-right: 15px;
 }

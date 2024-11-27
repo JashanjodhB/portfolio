@@ -6,7 +6,7 @@ import Typewriter from './components/Typewriter'
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import 'bootstrap/dist/css/bootstrap.css'
 import { Navbar } from 'react-bootstrap'
-import { faFile } from '@fortawesome/free-solid-svg-icons'
+import { faFile, faGlobe } from '@fortawesome/free-solid-svg-icons'
 import secondpic from './assets/concertPic.png'
 const res="https://drive.google.com/file/d/14HgsbibdlDcpnxSeHazRKjeoc0e32YEV/view?usp=sharing";
 function App() {
@@ -63,7 +63,15 @@ function App() {
 
 
         <div class="cell Projects" id='projects'>
-          <h1>Projects:WIP</h1>
+          <h1>Projects</h1>
+          
+          <li className='website'>
+              <a  target="_blank" rel='noreferrer' href={'https://github.com/JashanjodhB/portfolio'}>
+                <FontAwesomeIcon icon={faGlobe} color='#000000'/>
+              </a>
+              <h1>This portfolio website:</h1>
+              <p>The website we are currently on is a platform to give a little information on myself, the projects I've worked on, and some ways to contact me. The site is coded using React, and I am constantly updating it to add new features. The website is currently a work in progress but is functional. Clicking the web icon will take you to the github repository for this website.</p>
+            </li>
           {/*Project site, spot for spotify app */}
         </div>
 
