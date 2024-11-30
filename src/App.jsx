@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import { Navbar } from 'react-bootstrap'
 import { faFile, faGlobe } from '@fortawesome/free-solid-svg-icons'
 import secondpic from './assets/concertPic.png'
-const res="https://drive.google.com/file/d/14HgsbibdlDcpnxSeHazRKjeoc0e32YEV/view?usp=sharing";
+const res="https://drive.google.com/file/d/1N-l7xDe8Z_u5yGEj8IAFWHxKTe-Vpr6o/view?usp=sharing";
 function App() {
   return(
     <div className='app'>
